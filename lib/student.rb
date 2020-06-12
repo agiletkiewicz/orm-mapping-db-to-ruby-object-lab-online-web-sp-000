@@ -91,7 +91,11 @@ class Student
     
   end
   
+<<<<<<< HEAD
   def self.first_X_students_in_grade_10(number)
+=======
+  def self.first_x_students_in_grade_10(number)
+>>>>>>> 8cc5df94ea8907107298a9f1cb9a7aa0c312749c
     sql = <<-SQL
       SELECT *
       FROM students
@@ -104,6 +108,7 @@ class Student
     end
   end
 
+<<<<<<< HEAD
  def self.first_student_in_grade_10
    
    sql = <<-SQL
@@ -133,5 +138,8 @@ class Student
  end
    
    
+=======
+  
+>>>>>>> 8cc5df94ea8907107298a9f1cb9a7aa0c312749c
   
 end
